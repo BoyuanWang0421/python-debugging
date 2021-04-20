@@ -30,7 +30,8 @@ def area_of_rectangle(height, width = None):
     14
     """
     if width:
-        width = height
+         width = height
+    import pdb; pdb.set_trace() 
     area = height * width
     return area
 
